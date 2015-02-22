@@ -1,0 +1,1 @@
+cmd_/home/murrm/tests/insane_striping-master/insane_raid6e.ko := ld -r -m elf_i386 -T /usr/src/linux-headers-3.11.10-03111008-generic/scripts/module-common.lds --build-id  -o /home/murrm/tests/insane_striping-master/insane_raid6e.ko /home/murrm/tests/insane_striping-master/insane_raid6e.o /home/murrm/tests/insane_striping-master/insane_raid6e.mod.o

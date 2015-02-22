@@ -1,0 +1,5 @@
+kernel//home/murrm/tests/insane_striping-master/insane_striping.ko
+kernel//home/murrm/tests/insane_striping-master/insane_raid6.ko
+kernel//home/murrm/tests/insane_striping-master/insane_raid6e.ko
+kernel//home/murrm/tests/insane_striping-master/insane_raid7.ko
+kernel//home/murrm/tests/insane_striping-master/insane_LRC.ko

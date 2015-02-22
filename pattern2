@@ -1,0 +1,34 @@
+[devices]
+/dev/sdb5 /dev/sdb6 /dev/sdb7 /dev/sdb8 dev/sdb9
+
+[volume]
+128M
+
+[block_sizes]
+64 128 256 512 1024 2048 4096 8192
+
+[tests]
+# 
+# disks     algorithm   options
+# options can be:
+#
+# lrc:
+#   cheme=<cheme>
+#   OR
+#   groups=<subgroups>
+#   length=<subgroup_length>
+#   global_s=<global_syndromes>
+#   
+#   default global_s = 1
+#   
+# Other algorithms:
+#   no special options yet
+#
+#
+
+4 lrc     scheme=11111s122222s233333s3eg
+21 lrc     groups=3,length=6
+22 lrc     groups=3,length=6,global_s=2
+21 raid6   
+21 raid6   
+

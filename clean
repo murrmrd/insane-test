@@ -1,0 +1,9 @@
+#!/bin/bash
+dmsetup remove disk1 &&
+rmmod insane_raid7.ko && # модули алгоритмов нужно выгрузить прежде основного
+rmmod insane_raid6e.ko &&
+rmmod insane_LRC.ko &&
+rmmod insane_raid6.ko &&
+#insmod insane_elegant_rebuilt.ko &&
+#insmod insane_elegant.ko &&
+rmmod insane_striping.ko
